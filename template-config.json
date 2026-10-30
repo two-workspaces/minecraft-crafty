@@ -3,9 +3,6 @@
   "41a31342-6417-4a4c-9a9e-4b30797feba9": {
    "icon": "https://gitlab.com/crafty-controller/crafty-4/-/raw/v4.11.0/app/frontend/static/assets/images/crafty-logo-square.svg",
    "name": "Minecraft",
-   "build": {
-    "dockerfilePath": "Dockerfile"
-   },
    "deploy": {
     "startCommand": null,
     "healthcheckPath": "/login",
@@ -13,8 +10,7 @@
     "restartPolicyMaxRetries": 10
    },
    "source": {
-    "repo": "https://github.com/two-workspaces/minecraft-crafty",
-    "rootDirectory": "/"
+    "image": "ghcr.io/two-workspaces/minecraft-crafty:d7907c6"
    },
    "variables": {
     "EULA": {
