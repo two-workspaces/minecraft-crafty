@@ -10,7 +10,7 @@
     "restartPolicyMaxRetries": 10
    },
    "source": {
-    "image": "ghcr.io/two-workspaces/minecraft-crafty:d7907c6"
+    "image": "ghcr.io/two-workspaces/minecraft-crafty:3e6a9e7"
    },
    "variables": {
     "EULA": {
