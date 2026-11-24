@@ -1,5 +1,5 @@
 # Pinned: a silent upstream rebase would hit every deploy of this template at once.
-FROM registry.gitlab.com/crafty-controller/crafty-4:4.11.0
+FROM registry.gitlab.com/crafty-controller/crafty-4:4.11.1
 
 # Crafty serves its panel over HTTPS only (self-signed, :8443) and Railway's edge
 # talks plain HTTP to the container, so Caddy sits in between on $PORT.
